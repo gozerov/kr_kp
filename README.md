@@ -78,7 +78,6 @@ KR_KP/
 http {
     upstream backend_cluster {
         server backend:8000;
-        server backend:8000;
     }
 
     server {
